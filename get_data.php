@@ -8,7 +8,7 @@
 	// Create connection
 	$conn = new mysqli($servername, $username, $password,$db);
 	
-	// Change character set to utf8 for thai
+	// Change character set to utf8
 	mysqli_set_charset($conn,"utf8");
 
 	// Check connection
